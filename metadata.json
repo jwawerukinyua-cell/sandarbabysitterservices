@@ -1,0 +1,6 @@
+{
+  "name": "Nairobi Babysitter Landing Page Template",
+  "description": "A high-converting single-page template with an interactive booking cost calculator, coverage checker, contract safety section, and copyable sales copy helper for TikTok service creators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
