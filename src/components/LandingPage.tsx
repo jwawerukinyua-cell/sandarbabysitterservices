@@ -1675,7 +1675,7 @@ Is your schedule available for this? Looking forward to hearing from you! ❤️
                         onChange={(e) => setCalcSpecialRequests({ ...calcSpecialRequests, homework: e.target.checked })}
                         className="rounded accent-rose-500 text-rose-500"
                       />
-                      <span>📚 Homework Aid (+ KSh 200 flat)</span>
+                      <span>📚 Homework Aid (Free)</span>
                     </label>
                     <label className="flex items-center gap-2.5 p-2.5 rounded-lg border border-rose-100/60 bg-rose-50/20 hover:bg-rose-50/40 cursor-pointer text-xs">
                       <input
@@ -1684,7 +1684,7 @@ Is your schedule available for this? Looking forward to hearing from you! ❤️
                         onChange={(e) => setCalcSpecialRequests({ ...calcSpecialRequests, mealPrep: e.target.checked })}
                         className="rounded accent-rose-500 text-rose-500"
                       />
-                      <span>🍳 Meal Prep Support (+ KSh 300 flat)</span>
+                      <span>🍳 Meal Prep Support (Free)</span>
                     </label>
                     <label className="flex items-center gap-2.5 p-2.5 rounded-lg border border-rose-100/60 bg-rose-50/20 hover:bg-rose-50/40 cursor-pointer text-xs">
                       <input
@@ -1948,7 +1948,7 @@ Is your schedule available for this? Looking forward to hearing from you! ❤️
                         className="flex-1 bg-purple-900/40 border border-purple-500/40 rounded-xl px-3 py-1.5 text-xs text-white focus:outline-none focus:border-emerald-400 placeholder:text-purple-400"
                         onKeyDown={(e) => {
                           if (e.key === "Enter") {
-                            if (passcodeInput.trim() === "sandra2026") {
+                            if (passcodeInput.trim() === "adminsandra#2026") {
                               setAdminAuthenticated(true);
                               setIsAdminMode(true);
                               setShowPasscodeField(false);
@@ -1963,7 +1963,7 @@ Is your schedule available for this? Looking forward to hearing from you! ❤️
                       <button
                         type="button"
                         onClick={() => {
-                          if (passcodeInput.trim() === "sandra2026") {
+                          if (passcodeInput.trim() === "adminsandra#2026") {
                             setAdminAuthenticated(true);
                             setIsAdminMode(true);
                             setShowPasscodeField(false);
@@ -1984,7 +1984,7 @@ Is your schedule available for this? Looking forward to hearing from you! ❤️
                       </span>
                     )}
                     <span className="block text-[8px] text-purple-400 leading-normal italic">
-                      💡 Hint for Sandra: Enter <strong>sandra2026</strong> to unlock private administrative calendar controls.
+                      ENTER THE PASSCODE (for Admin Only)
                     </span>
                   </div>
                 )}
