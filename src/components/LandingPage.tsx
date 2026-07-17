@@ -725,7 +725,7 @@ Is your schedule available for this? Looking forward to hearing from you! ❤️
                         <span>{copiedLink ? "Copied! 🎉" : "Copy Share Link"}</span>
                       </button>
                       <a
-                        href={`https://api.whatsapp.com/send?text=${encodeURIComponent("Check out Sandra's professional babysitting portfolio and calculator for Nairobi families! 🌸 " + window.location.href)}`}
+                        href={`https://api.whatsapp.com/send?text=${encodeURIComponent("Check out Sandra's professional babysitting services-she is the best! 🌸 " + window.location.href)}`}
                         target="_blank"
                         rel="noreferrer"
                         className="w-full flex items-center gap-2.5 px-2.5 py-2 hover:bg-emerald-50 text-slate-700 rounded-xl text-left text-xs transition-colors"
@@ -844,7 +844,7 @@ Is your schedule available for this? Looking forward to hearing from you! ❤️
                     <span>{copiedLink ? "Copied! 🎉" : "Copy Link"}</span>
                   </button>
                   <a
-                    href={`https://api.whatsapp.com/send?text=${encodeURIComponent("Check out Sandra's professional babysitting portfolio and calculator for Nairobi families! 🌸 " + window.location.href)}`}
+                    href={`https://api.whatsapp.com/send?text=${encodeURIComponent("Check out Sandra's professional babysitting services-she is the best! 🌸 " + window.location.href)}`}
                     target="_blank"
                     rel="noreferrer"
                     className="bg-rose-50 hover:bg-rose-100 text-rose-600 font-medium text-center text-xs py-2.5 rounded-lg border border-rose-200 flex items-center justify-center gap-1.5"
@@ -943,9 +943,9 @@ Is your schedule available for this? Looking forward to hearing from you! ❤️
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/70 via-transparent to-transparent"></div>
                 
                 {/* Overlay details */}
-                <div className="absolute bottom-4 left-4 right-4 bg-white/20 backdrop-blur-md p-4 rounded-2xl border border-white/20">
-                  <p className="text-white text-[10px] font-semibold uppercase tracking-wider text-teal-200">Featured On TikTok</p>
-                  <p className="text-white font-bold text-lg">@{profile.handle}</p>
+                <div className="absolute bottom-0 left-0 right-0 bg-slate-950/75 backdrop-blur-lg px-6 py-8 border-t border-white/10 flex flex-col gap-1.5">
+                  <p className="text-teal-300 text-[11px] font-bold uppercase tracking-wider">Featured On TikTok</p>
+                  <p className="text-white font-bold text-xl">@{profile.handle}</p>
                 </div>
               </div>
             </motion.div>
