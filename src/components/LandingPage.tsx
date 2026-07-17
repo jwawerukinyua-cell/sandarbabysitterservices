@@ -7,6 +7,8 @@ import { useState, useMemo, FormEvent, useEffect } from "react";
 import { BabysitterProfile, ThemeConfig, FAQItem } from "../types";
 import { SERVICE_AREAS, SITUATIONS, SAFETY_FAQS, VALUES, NAIROBI_CONSTITUENCIES, INITIAL_REVIEWS, ReviewItem } from "../data";
 import { motion, AnimatePresence } from "motion/react";
+import sandraFounder from "../assets/images/sandra_founder.jpg";
+import sandraPlaying from "../assets/images/sandra_playing_princess.jpg";
 import {
   Heart,
   Clock,
@@ -932,7 +934,7 @@ Is your schedule available for this? Looking forward to hearing from you! ❤️
             >
               <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/5] border-4 border-white bg-brand-cream shadow-brand-teal/10">
                 <img
-                  src="/src/assets/images/sandra_founder.jpg"
+                  src={sandraFounder}
                   alt="Sandra Wangeci - Founder & Professional Childcare Provider"
                   className="w-full h-full object-cover animate-fade-in"
                   loading="eager"
@@ -1017,7 +1019,7 @@ Is your schedule available for this? Looking forward to hearing from you! ❤️
             <div className="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-md border border-slate-100 transition flex flex-col">
               <div className="h-56 relative group overflow-hidden">
                 <img
-                  src="/src/assets/images/Sandra Playing with a Princess.jpg"
+                  src={sandraPlaying}
                   alt="Sandra Playing with a Princess"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
